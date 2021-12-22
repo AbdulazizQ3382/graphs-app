@@ -1,0 +1,13 @@
+.mid-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: ghostwhite;
+    width: 75%;
+    }
+.container {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}

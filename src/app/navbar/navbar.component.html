@@ -1,0 +1,12 @@
+<ul ngbNav #nav="ngbNav" class="nav-tabs">
+    <li ngbNavItem>
+        <a ngbNavLink routerLink="/" routerLinkActive="active">Home</a>
+      </li>
+    <li ngbNavItem>
+      <a ngbNavLink routerLink="/Bar-chars" routerLinkActive="active">Bar chars</a>
+    </li>
+    <li ngbNavItem>
+      <a ngbNavLink routerLink="/Line-chars" routerLinkActive="active">Line Charts</a>
+    </li>
+  </ul>
+  <div [ngbNavOutlet]="nav"></div>
